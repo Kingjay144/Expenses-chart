@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      
+    <title>Expenses chart</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="top">
+        <div class="balance">
+          <p>MY BALANCE </p>
+          <h2>£7500.48</h2>
+        </div>
+      </section>
+      <section class="bottom">
+        <h1>Expenditure - In the Last 7 days</h1>
+        <canvas id="myChart"></canvas>
+        <div class="divider"></div>
+        <div class="totals">
+          <div class="this_month">
+            <p>This Month Total</p>
+            <h2>£2297.94</h2>
+          </div>
+          <div class="last_month">
+            <p>+37.5%</p>
+            <p>from last month</p>
+          </div>
+        </div>
+      </section>
+    </main>
+   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
